@@ -10,7 +10,7 @@ const ButtonCategoryComponent = ({setCategory}) => {
   return (
     <Container className="my-5">
       <Button className="btn btn-success mx-2" onClick={() => setCategory(FantasyBooks)}>Fantasy</Button>
-      <Button className="btn btn-info mx-2 " onClick={() => setCategory(HistoryBooks)}>History</Button>
+      <Button className="btn btn-info mx-2" onClick={() => setCategory(HistoryBooks)}>History</Button>
       <Button className="btn btn-danger mx-2" onClick={() => setCategory(HorrorBooks)}>Horror</Button>
       <Button className="btn btn-secondary mx-2" onClick={() => setCategory(RomanceBooks)}>Romance</Button>
       <Button className="btn btn-warning mx-2" onClick={() => setCategory(ScifiBooks)}>Scifi</Button>
