@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800&family=Roboto:wght@100;300;400;500;700&family=Spectral:wght@200;300;400;500;700&display=swap');
+
+
+body {
+    font-family: 'Inter', 'Roboto';
+}
+
+.navbar {
+  background-color: #ffc21a;
+  height: "100%";
+  border-bottom: 1px solid black;
+}
+
+.bgColor {
+  display:flex;
+  justify-content:space-between;
+}
+.titleBig {
+    font-family: 'Spectral', 'Roboto';
+    font-weight: 400;
+    font-size: 15vh;
+    padding: 30px;
+}
+
+.heroCard {
+    font-family: 'Inter', 'Roboto';
+    font-weight: 700;
+    font-size: 10vh;
+    border: 1px solid black;
+}
+
+/* MAIN */
+
+.mainside {  /* sezione articoli */
+  position: relative;
+}
+
+@media only screen and (min-width: 992px) {
+  .sidebar {  /* side laterale dei bottoni categoria */
+  position: sticky;
+  top: 100px;
+  height: 100%;
+}
+}
+
+
+.articolo {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1.3rem;
+    gap: 1rem;
+}
+   
+   
+   .numero {
+     font-size: 1.7rem;
+     font-weight: 700;
+     letter-spacing:  -1px;
+     color: rgba(157, 157, 157, 0.15);
+   
+   }
+   
+   .articolo img {
+     height: 21px;
+     border-radius: 40%;
+   }
+   
+   .articolo b {
+     font-family: 'Spectral';
+     font-weight: 500;
+   }
+   
+   .articolo h6 {
+     font-family: 'Spectral';
+     font-weight: bold;
+   }
+   
+   .articolo p {
+     font-family: 'Spectral';
+     font-weight: lighter;
+   }
+   
+   
+   .testo small {
+     display:flex;
+     align-items: center;
+     gap: 10px;
+   }
+   
+   .testo p {
+     display:flex;
+     align-items: center;
+     gap: 10px;
+     margin-top: 10px;
+   }
+   
+   
+   .text {
+     display: flex;
+   }
+   
+   .text img {
+     height: 25px;
+     border-radius: 45%;
+   }
+   
+   .text small {
+     display:flex;
+     align-items: center;
+     gap: 10px;
+   }
+   
+   .text p {
+     display:flex;
+     align-items: center;
+     gap: 10px;
+     margin-top: 10px;
+   }
+
+/* News Gallery  */
+
+.text1 {
+  display: flex;
+}
+
+.text1 img {
+  height: 25px;
+  border-radius: 45%;
+}
+
+.text1 small {
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.text1 p {
+  display:flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-family: 'Inter';
+}
+
+.news1 {
+  display:flex;
+  flex-direction: row;
+  gap: 50px;
+  
+  
+}
+
+.immagine1 {
+  gap: 10px;
+ 
+}
+
+.author {
+  border-radius: 50%;
+  height: 30px;
+}
+
+.textNews p {
+  font-family: 'Spectral';
+  font-weight: lighter;
+}
+
+.textNews b {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.textNews small {
+  align-items: center;
+  font-weight: 300;
+}
+.titleArticle {
+  font-weight: 600;
+  font-size: larger;
+}
+.textNews img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
