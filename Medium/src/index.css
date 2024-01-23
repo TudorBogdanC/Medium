@@ -29,6 +29,7 @@ body {
     border: 1px solid black;
 }
 
+
 /* MAIN */
 
 .mainside {  /* sezione articoli */
@@ -40,7 +41,15 @@ body {
   position: sticky;
   top: 100px;
   height: 100%;
+}}
+
+@media only screen and (max-width: 992px) {
+  #letters {
+  display:none;
+  }
 }
+#letters {
+  overflow: hidden;
 }
 
 
